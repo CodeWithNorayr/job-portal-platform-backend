@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 4000;
 app.use(express.json()); // parse JSON bodies
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:5173",
+    origin: "https://job-portal-platform-frontend-ictj.onrender.com",
     credentials: true,
   })
 );
