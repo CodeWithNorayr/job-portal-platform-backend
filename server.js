@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 4000;
 app.use(express.json()); // parse JSON bodies
 app.use(
   cors({
-    origin: "https://job-portal-platform-frontend-ictj.onrender.com",
+    origin: "https://job-portal-platform-frontend-xzac.onrender.com",
     credentials: true,
   })
 );
